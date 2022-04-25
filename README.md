@@ -22,6 +22,7 @@ hosted on that worker. Not only it watches for the newly deployed pod, even on t
 4. multus CNI (along with ipvlan CNI) 
 5. whereabouts IPAM CNI
 6. Bastion node with docker and git
+7. HttpPutResponseHopLimit as 2 (If you are using the IMDSv2 enabled). Please refer to Configure the instance metadata options.
 
 Note: If you are using the IMDSv2 enabled, then ensure that nodes have HttpPutResponseHopLimit as 2. Please refer to [Configure the instance metadata options](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-options.html).    
 
